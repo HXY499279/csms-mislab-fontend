@@ -3,7 +3,6 @@ import { Home, Login } from "./page"
 import { DescriptionWrapper } from './common'
 
 const App = (props) => {
-  let [id, pageSize] = [props.id, props.pageSize].map(String)
 
   return (
     <>
